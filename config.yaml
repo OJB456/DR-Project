@@ -1,0 +1,42 @@
+dataset_root: archive
+train_csv: archive/train_1.csv
+val_csv: archive/valid.csv
+test_csv: archive/test.csv
+train_images: archive/train_images/train_images
+val_images: archive/val_images/val_images
+test_images: archive/test_images/test_images
+
+image_size: 224
+num_classes: 5
+batch_size: 16
+learning_rate: 0.0001
+weight_decay: 0.0001
+epochs: 15
+patience: 4
+num_workers: 0
+seed: 42
+pretrained: true
+
+checkpoint_path: artifacts/checkpoints/best_model.pt
+last_checkpoint_path: artifacts/checkpoints/last_model.pt
+training_history_path: artifacts/training_history.json
+metrics_path: artifacts/metrics.json
+
+confidence_threshold: 0.60
+referable_classes: [2, 3, 4]
+
+quality:
+  blur_threshold: 35.0
+  brightness_min: 12.0
+  brightness_max: 245.0
+  contrast_min: 15.0
+  field_of_view_min: 0.15
+  field_of_view_max: 0.98
+  min_quality_score: 60.0
+
+preprocessing:
+  crop_black_border: true
+  black_threshold: 8
+  apply_clahe: true
+  clahe_clip_limit: 2.0
+  clahe_tile_grid_size: 8

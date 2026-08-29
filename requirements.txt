@@ -1,0 +1,14 @@
+# Core image/data/ML stack
+numpy>=1.24
+opencv-python-headless>=4.8
+pandas>=2.0
+Pillow>=10.0
+scikit-learn>=1.3
+PyYAML>=6.0
+matplotlib>=3.7
+torch>=2.1
+torchvision>=0.16
+
+# Demo and tests
+streamlit>=1.30
+pytest>=7.4

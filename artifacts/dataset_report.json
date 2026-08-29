@@ -1,0 +1,410 @@
+{
+  "dataset_root": "C:\\Users\\admin\\OneDrive\\VSCODEMAIN\\DR_project\\archive",
+  "total_files": 3665,
+  "image_file_count": 3662,
+  "image_formats": {
+    "png": 3662
+  },
+  "csv_files": [
+    "archive\\test.csv",
+    "archive\\train_1.csv",
+    "archive\\valid.csv"
+  ],
+  "json_files": [],
+  "top_level_structure": [
+    "test.csv",
+    "test_images",
+    "train_1.csv",
+    "train_images",
+    "val_images",
+    "valid.csv"
+  ],
+  "splits": {
+    "train": {
+      "csv_path": "archive\\train_1.csv",
+      "image_directory": "archive\\train_images\\train_images",
+      "csv_columns": [
+        "id_code",
+        "diagnosis"
+      ],
+      "csv_rows": 2930,
+      "id_column": "id_code",
+      "label_column": "diagnosis",
+      "image_file_count": 2930,
+      "image_extensions": {
+        "png": 2930
+      },
+      "sample_image_dimensions": {
+        "1ae8c165fd53.png": [
+          3216,
+          2136
+        ],
+        "1b329a127307.png": [
+          2588,
+          1958
+        ],
+        "1b32e1d775ea.png": [
+          1504,
+          1000
+        ],
+        "1b3647865779.png": [
+          819,
+          614
+        ],
+        "1b398c0494d1.png": [
+          1050,
+          1050
+        ],
+        "1b4625877527.png": [
+          1504,
+          1000
+        ],
+        "1b495ac025b7.png": [
+          2416,
+          1736
+        ],
+        "1b862fb6f65d.png": [
+          1050,
+          1050
+        ],
+        "1b8701231c8f.png": [
+          819,
+          614
+        ],
+        "1b8ad0afe9fb.png": [
+          2588,
+          1958
+        ],
+        "1bb0ddfe753a.png": [
+          2416,
+          1736
+        ],
+        "1bea04b2bb2d.png": [
+          3216,
+          2136
+        ],
+        "1bf30c84bbad.png": [
+          4288,
+          2848
+        ],
+        "1c0cf251b426.png": [
+          2416,
+          1736
+        ],
+        "1c0e5dd1b14c.png": [
+          3216,
+          2136
+        ],
+        "1c13a1483f4a.png": [
+          1050,
+          1050
+        ],
+        "1c3a6b4449e9.png": [
+          2416,
+          1736
+        ],
+        "1c47815f4a6b.png": [
+          1476,
+          1117
+        ],
+        "1c4d87baaffc.png": [
+          2416,
+          1736
+        ],
+        "1c4f3aa4df06.png": [
+          3216,
+          2136
+        ]
+      },
+      "label_values": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "class_distribution": {
+        "0": 1434,
+        "1": 300,
+        "2": 808,
+        "3": 154,
+        "4": 234
+      },
+      "missing_images": [],
+      "missing_image_count": 0,
+      "extra_images": [],
+      "extra_image_count": 0,
+      "duplicate_csv_ids": {},
+      "duplicate_image_ids": {},
+      "corrupt_images": [],
+      "corrupt_image_count": 0,
+      "duplicate_content_groups": [],
+      "mapping_verified": true
+    },
+    "validation": {
+      "csv_path": "archive\\valid.csv",
+      "image_directory": "archive\\val_images\\val_images",
+      "csv_columns": [
+        "id_code",
+        "diagnosis"
+      ],
+      "csv_rows": 366,
+      "id_column": "id_code",
+      "label_column": "diagnosis",
+      "image_file_count": 366,
+      "image_extensions": {
+        "png": 366
+      },
+      "sample_image_dimensions": {
+        "000c1434d8d7.png": [
+          3216,
+          2136
+        ],
+        "001639a390f0.png": [
+          3216,
+          2136
+        ],
+        "0024cdab0c1e.png": [
+          2416,
+          1736
+        ],
+        "002c21358ce6.png": [
+          1050,
+          1050
+        ],
+        "005b95c28852.png": [
+          2048,
+          1536
+        ],
+        "0083ee8054ee.png": [
+          3388,
+          2588
+        ],
+        "0097f532ac9f.png": [
+          2588,
+          1958
+        ],
+        "00a8624548a9.png": [
+          3216,
+          2136
+        ],
+        "00b74780d31d.png": [
+          2588,
+          1958
+        ],
+        "00cb6555d108.png": [
+          2416,
+          1736
+        ],
+        "00cc2b75cddd.png": [
+          1050,
+          1050
+        ],
+        "00e4ddff966a.png": [
+          2416,
+          1736
+        ],
+        "00f6c1be5a33.png": [
+          1050,
+          1050
+        ],
+        "0104b032c141.png": [
+          2416,
+          1736
+        ],
+        "0124dffecf29.png": [
+          3216,
+          2136
+        ],
+        "0125fbd2e791.png": [
+          1050,
+          1050
+        ],
+        "012a242ac6ff.png": [
+          3216,
+          2136
+        ],
+        "014508ccb9cb.png": [
+          819,
+          614
+        ],
+        "0151781fe50b.png": [
+          2048,
+          1536
+        ],
+        "0161338f53cc.png": [
+          1504,
+          1000
+        ]
+      },
+      "label_values": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "class_distribution": {
+        "0": 172,
+        "1": 40,
+        "2": 104,
+        "3": 22,
+        "4": 28
+      },
+      "missing_images": [],
+      "missing_image_count": 0,
+      "extra_images": [],
+      "extra_image_count": 0,
+      "duplicate_csv_ids": {},
+      "duplicate_image_ids": {},
+      "corrupt_images": [],
+      "corrupt_image_count": 0,
+      "duplicate_content_groups": [],
+      "mapping_verified": true
+    },
+    "test": {
+      "csv_path": "archive\\test.csv",
+      "image_directory": "archive\\test_images\\test_images",
+      "csv_columns": [
+        "id_code",
+        "diagnosis"
+      ],
+      "csv_rows": 366,
+      "id_column": "id_code",
+      "label_column": "diagnosis",
+      "image_file_count": 366,
+      "image_extensions": {
+        "png": 366
+      },
+      "sample_image_dimensions": {
+        "e4dcca36ceb4.png": [
+          1050,
+          1050
+        ],
+        "e4e343eaae2a.png": [
+          2144,
+          1424
+        ],
+        "e4f12411fd85.png": [
+          2896,
+          1944
+        ],
+        "e50b0174690d.png": [
+          1050,
+          1050
+        ],
+        "e5197d77ec68.png": [
+          819,
+          614
+        ],
+        "e529c5757d64.png": [
+          819,
+          614
+        ],
+        "e52ed5c29c5e.png": [
+          3216,
+          2136
+        ],
+        "e540d2e35d15.png": [
+          2416,
+          1736
+        ],
+        "e55188915f9d.png": [
+          2416,
+          1736
+        ],
+        "e580676516b0.png": [
+          2588,
+          1958
+        ],
+        "e582e56e7942.png": [
+          1050,
+          1050
+        ],
+        "e594c19e2e1d.png": [
+          1050,
+          1050
+        ],
+        "e599151ca14b.png": [
+          2416,
+          1736
+        ],
+        "e59c5f345bb0.png": [
+          1050,
+          1050
+        ],
+        "e5d56f4f359b.png": [
+          3216,
+          2136
+        ],
+        "e5de79795c1d.png": [
+          819,
+          614
+        ],
+        "e5f332efcbc7.png": [
+          2048,
+          1536
+        ],
+        "e5f73f2855c0.png": [
+          1050,
+          1050
+        ],
+        "e60e4edb3ca9.png": [
+          1050,
+          1050
+        ],
+        "e62490b7d0e9.png": [
+          3216,
+          2136
+        ]
+      },
+      "label_values": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "class_distribution": {
+        "0": 199,
+        "1": 30,
+        "2": 87,
+        "3": 17,
+        "4": 33
+      },
+      "missing_images": [],
+      "missing_image_count": 0,
+      "extra_images": [],
+      "extra_image_count": 0,
+      "duplicate_csv_ids": {},
+      "duplicate_image_ids": {},
+      "corrupt_images": [],
+      "corrupt_image_count": 0,
+      "duplicate_content_groups": [],
+      "mapping_verified": true
+    }
+  },
+  "proposed_mapping": {
+    "train_1.csv": "train_images/train_images",
+    "valid.csv": "val_images/val_images",
+    "test.csv": "test_images/test_images"
+  },
+  "mapping_confirmed": true,
+  "split_id_overlap": {
+    "train_vs_validation": [],
+    "train_vs_test": [],
+    "validation_vs_test": []
+  },
+  "split_content_overlap_group_counts": null,
+  "potential_data_leakage": false,
+  "content_hashing_performed": false,
+  "duplicate_image_groups": [],
+  "duplicate_image_group_count": 0,
+  "official_separate_train_validation_test": true,
+  "notes": [
+    "Image hashes and dimensions were processed one file at a time.",
+    "No files were downloaded, moved, or copied.",
+    "The proposed CSV-to-directory mapping is verified by exact image stem matching.",
+    "Quality thresholds and clinical performance are outside this structural dataset audit."
+  ]
+}

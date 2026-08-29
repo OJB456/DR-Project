@@ -1,0 +1,34 @@
+# The local APTOS dataset is authoritative but must never be committed.
+archive/
+archive.zip
+
+# Model/checkpoint binaries and generated caches.
+artifacts/checkpoints/
+artifacts/gradcam/
+artifacts/reports/
+artifacts/experiments.csv
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.pkl
+
+# Python and tooling.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Temporary/demo files.
+tmp/
+temp/
+*.tmp
+*.log

@@ -1,0 +1,77 @@
+{
+  "config": {
+    "dataset_root": "C:\\Users\\admin\\OneDrive\\VSCODEMAIN\\DR_project\\archive",
+    "train_csv": "C:\\Users\\admin\\OneDrive\\VSCODEMAIN\\DR_project\\archive\\train_1.csv",
+    "val_csv": "C:\\Users\\admin\\OneDrive\\VSCODEMAIN\\DR_project\\archive\\valid.csv",
+    "test_csv": "C:\\Users\\admin\\OneDrive\\VSCODEMAIN\\DR_project\\archive\\test.csv",
+    "train_images": "C:\\Users\\admin\\OneDrive\\VSCODEMAIN\\DR_project\\archive\\train_images\\train_images",
+    "val_images": "C:\\Users\\admin\\OneDrive\\VSCODEMAIN\\DR_project\\archive\\val_images\\val_images",
+    "test_images": "C:\\Users\\admin\\OneDrive\\VSCODEMAIN\\DR_project\\archive\\test_images\\test_images",
+    "image_size": 96,
+    "num_classes": 5,
+    "batch_size": 8,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "epochs": 15,
+    "patience": 4,
+    "num_workers": 0,
+    "seed": 42,
+    "pretrained": true,
+    "checkpoint_path": "C:\\Users\\admin\\OneDrive\\VSCODEMAIN\\DR_project\\artifacts\\checkpoints\\best_model.pt",
+    "last_checkpoint_path": "C:\\Users\\admin\\OneDrive\\VSCODEMAIN\\DR_project\\artifacts\\checkpoints\\last_model.pt",
+    "training_history_path": "C:\\Users\\admin\\OneDrive\\VSCODEMAIN\\DR_project\\artifacts\\training_history.json",
+    "metrics_path": "C:\\Users\\admin\\OneDrive\\VSCODEMAIN\\DR_project\\artifacts\\metrics.json",
+    "confidence_threshold": 0.6,
+    "referable_classes": [
+      2,
+      3,
+      4
+    ],
+    "quality": {
+      "blur_threshold": 35.0,
+      "brightness_min": 12.0,
+      "brightness_max": 245.0,
+      "contrast_min": 15.0,
+      "field_of_view_min": 0.15,
+      "field_of_view_max": 0.98,
+      "min_quality_score": 60.0
+    },
+    "preprocessing": {
+      "crop_black_border": true,
+      "black_threshold": 8,
+      "apply_clahe": true,
+      "clahe_clip_limit": 2.0,
+      "clahe_tile_grid_size": 8
+    }
+  },
+  "device": {
+    "device": "cpu",
+    "python": "3.11.6",
+    "pytorch": "2.13.0+cpu",
+    "torchvision": "0.28.0+cpu",
+    "cuda_available": false,
+    "cuda_version": null,
+    "gpu": null
+  },
+  "class_weights": [
+    0.4086471498012543,
+    1.9533333778381348,
+    0.7252475023269653,
+    3.805194854736328,
+    2.5042734146118164
+  ],
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 1.6404458731412888,
+      "train_accuracy": 0.265625,
+      "learning_rate": 0.0,
+      "validation": {
+        "loss": 1.5895444452762604,
+        "accuracy": 0.1875,
+        "qwk": 0.049619703006157145
+      }
+    }
+  ],
+  "best_validation_qwk": 0.049619703006157145
+}
